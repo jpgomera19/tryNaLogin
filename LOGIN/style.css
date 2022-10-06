@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Varela Round', sans-serif; */
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    margin: 200px 0px; 
+    padding: 0px;
+    align: center;
+    background-image: url(image/hos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+.box{
+    width: 25em;
+    height: 33em;
+    max-width: 500px;
+    margin: auto;
+    backdrop-filter: blurd(50%);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.6);
+    background-color: white;
+    
+} 
+
+#logo{
+    width: 15rem;
+    height: 15rem;
+    z-index: -1;
+    margin: -3rem 4.8rem;
+}
+
+h3{
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: -2.5rem;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+form{
+    margin-top: -2rem;
+    margin: 0 2rem ;
+}
+label{
+    text-align: left;
+    font-size: 15px;
+}
+
+input{
+    width: 21rem;
+    height: 2.5rem;
+    padding: 5px;
+    font-size: 18px;
+    border: 1.9px solid gainsboro;
+   
+}
+
+input:focus{
+    outline: none;
+}
+
+#remember label {
+    display: inline-block;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+#remember {
+    vertical-align: middle;
+    width: 15px;
+    color: white;
+  }
+#remember label span {
+    vertical-align: middle;
+  }
+
+input[type='checkbox'] {
+    accent-color: #57d8cd;  
+  }   
+
+button{
+    border-radius: 50px;
+    width: 21rem;
+    height: 2.5rem;
+    border: 1px solid #121212;
+    color: #121212;
+    background: inherit;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    font-size: 18px;
+    /* background: linear-gradient(to right,#67e6dc,#58B19F); */
+
+}
+
+button:hover{
+    background-color: #57d8cd;
+    color: white;
+     /* background: linear-gradient(to right,#67e6dc,#58B19F); */
+    border: 1.9px solid #57d8cd;
+    border-radius: 50px;
+    
+}
+
+
+#link{
+    
+    color: black;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+#link:hover{
+    color: #07afa7;
+
+}
+#link:hover:after {
+    content: " Tanga ka kasi. Makakalimutin!";
+  }
+
+::placeholder{
+    font-size: 15px;
+} 
+input:focus::-webkit-input-placeholder {
+    color: #07afa7;
+    text-align: -1px;
+}
+
